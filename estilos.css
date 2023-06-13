@@ -15,7 +15,7 @@ header nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 98vw;
+    width: 100%;
     height: 80px;
     font-size: 16px;
     padding: 0px 16px;
@@ -25,7 +25,7 @@ header nav {
 }
 
 header nav .left-itmes {
-    width: 25%;
+    width: 20%;
     height: auto;
     display: flex;
     justify-content:space-around;
@@ -166,12 +166,13 @@ header nav img:hover {
 
 .container {
     position: absolute;
+    width: 100%;
     margin-top: 80px;
-    padding-right: 5px;
+    padding: 2%;
 }
 
 .images {
-    columns: 5 240px;
+    columns: 4 240px;
     margin: auto;
 
 }
@@ -183,7 +184,7 @@ header nav img:hover {
 
 .images .image img {
     border-radius: 8%;
-    min-width: 240px;
+    min-width: 100%;
     max-width: 240px;
 }
 
